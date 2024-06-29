@@ -153,6 +153,8 @@ body{
 
  main .banner{
      height: 100vh;
+     /* height: 100%; */
+     /* width: 100%; */
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -402,6 +404,7 @@ body{
      display: flex;
      justify-content: center;
      align-items: center;
+     z-index: -5;
    }
    
    .spiderman-image img {
@@ -450,59 +453,70 @@ body{
 
 /* Responsive styles */
 
-/* Mobile devices (max-width: 480px) */
-
-@media (max-width: 480px) {
-  header {
-    height: 50px;
-  }
-  header nav ul {
-    gap: 15px;
-  }
-  main .banner {
-    height: 80vh;
-  }
-  .banner button {
-    padding: 5px 10px;
-  }
-  h1 {
-    font-size: 2em;
-  }
+/* Increase canvas size according to screen resolution */
+#dotsCanvas {
+  width: 100vw;
+  height: 100vh;
 }
 
-/* Tablet devices (max-width: 768px) */
-
-@media (max-width: 768px) {
-  header {
-    height: 60px;
-  }
-  header nav ul {
-    gap: 20px;
-  }
-  main .banner {
-    height: 90vh;
-  }
-  .banner button {
-    padding: 7px 15px;
-  }
-  h1 {
-    font-size: 3em;
-  }
+/* Increase dots area according to canvas size */
+.banner #dotsCanvas {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: -5;
 }
 
-/* Laptop devices (max-width: 1024px) */
+/* Adjust banner height and font sizes according to screen resolution */
+main.banner {
+  height: 100vh;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+/* Adjust button padding and font sizes according to screen resolution */
+.banner button {
+  padding: 15px 30px;
+  font-size: 1.5em;
+}
+
+/* Adjust nav link font sizes and padding according to screen resolution */
+.nav-link {
+  font-size: 1.2em;
+  padding: 10px 20px;
+}
+
+/* Adjust spiderman image size according to screen resolution */
+.spiderman-image img {
+  width: 300px;
+  height: auto;
+}
+
+/* Media queries for different screen resolutions */
+@media (max-width: 1920px) {
+  /* Adjust styles for 1920x1080 screen resolution */
+}
+
+@media (max-width: 1600px) {
+  /* Adjust styles for 1600x900 screen resolution */
+}
+
+@media (max-width: 1366px) {
+  /* Adjust styles for 1366x768 screen resolution */
+}
 
 @media (max-width: 1024px) {
-  header {
-    height: 70px;
-  }
-  header nav ul {
-    gap: 25px;
-  }
-  main .banner {
-    height: 100vh;
-  }
-  .banner button {
-    padding: 10;
-  }
+  /* Adjust styles for 1024x768 screen resolution */
+}
+
+@media (max-width: 768px) {
+  /* Adjust styles for tablet devices */
+}
+
+@media (max-width: 480px) {
+  /* Adjust styles for mobile devices */
 }

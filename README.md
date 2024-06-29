@@ -6,7 +6,9 @@ This project creates a dynamic "Spiderman web" effect on the screen, where lines
 
 # Technologies Used
 HTML
+
 CSS
+
 JavaScript
 
 # How it Works

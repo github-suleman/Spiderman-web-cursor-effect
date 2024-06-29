@@ -1,5 +1,5 @@
 # Spiderman-web-cursor-effect
-"Spiderman-web-cursor-effect: A dynamic web effect where lines emanate from dots to the cursor, disappearing as you move. Inspired by Spiderman, this project uses HTML, CSS, and JavaScript to create an engaging, interactive experience."It's a great example of how to combine design and functionality to create a visually engaging experience for users
+This is a fun and visually appealing project that creates a dynamic "Spiderman web" effect on the screen. As you move your mouse cursor, lines emanate from various dots, simulating the webs of Spiderman. The lines disappear as you continue to move the cursor, creating a smooth and engaging animation. The design is inspired by the Spiderman character, with a dark background and colorful dots. This project uses HTML, CSS, and JavaScript to achieve the desired effect, showcasing your ability to create interactive web elements. It's a great example of how to combine design and functionality to create a visually engaging and interactive experience for users.
 
 # Introduction
 This project creates a dynamic "Spiderman web" effect on the screen, where lines emanate from various dots to the cursor, simulating the webs of Spiderman. The lines disappear as you continue to move the cursor, creating a smooth and engaging animation.
